@@ -6,7 +6,8 @@ namespace Meetlat
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Meetlat mijnLat = new Meetlat(5);
+            Console.WriteLine(mijnLat.LengteInCm);
         }
     }
 }
